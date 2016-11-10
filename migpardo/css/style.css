@@ -1157,3 +1157,8 @@ p.subtitle {
 	transform: rotate(-45deg);
 }
 /* ===== End buttons ===== */
+
+iframe {
+	width: 100%;
+	height:38em;
+}

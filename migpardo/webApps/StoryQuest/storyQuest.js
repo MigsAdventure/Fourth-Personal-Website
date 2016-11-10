@@ -248,7 +248,7 @@ $("#option2").on("click",function() {
 
 function friendFunc() {
 	switch(friend1 || friend2) {
-		case 'miguel': friend1Text = "Miguel who is an awesome person. " +   names + " wouldn't be where they are now if it wasn't for Mig who is also a GENIUS!";
+		case 'miguel': friend1Text = "Miggy who is an awesome person. " +   names + " wouldn't be where they are now if it wasn't for Mig who is also a GENIUS!";
 		break;
 		default: friendText = ""
 	}
