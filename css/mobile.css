@@ -13,6 +13,10 @@
 .aboutPicContainer img {
   box-shadow: 0 0 5px black;
 }
+
+.techIconContainer {
+  margin:2.1em;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -57,6 +61,11 @@
 		width: 90px;
 		height: 90px;
 	}
+
+  .team-triangle .content img {
+    width: 70%;  
+  }
+
 	.team-triangle .content {
 		width: 160px;
 		height: 160px;
