@@ -699,8 +699,6 @@ span.rotate-box-icon {
 
 .team-items {
 	margin-bottom: 50px;
-	padding-top: 10px;
-	margin-top: 0;
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	text-align: center;
