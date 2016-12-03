@@ -47,13 +47,14 @@ p.subtitle, p.copyright, p.devTitle {
 }
 
 .socialIcon img:hover {
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 10px;
   opacity: 1;
   transform: translateY(3px);
   box-shadow: white 0 0 5px,
               white 0 0 10px,
-              white 0 0 20px;
+              white 0 0 15px;
+  /*border: solid 1px white;*/
 }
 
 #socialIconContainer {

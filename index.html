@@ -261,7 +261,7 @@
 													</div>
 													<div class="infoContainer">
                             <div class= "whoMainContainer">
-                                <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0">
+                                <a  class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0">
                                     <span class="rotate-box-icon"><img src='assets/beaniemig.jpg'/></span>
                                     <div class="rotate-box-info">
                                         <h4>Who I Am</h4>
@@ -283,7 +283,7 @@
                             </div> -->
 
                             <div class="whyMainContainer">
-                                <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.4s">
+                                <a class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.4s">
                                     <span class="rotate-box-icon"><i class="fa fa-heart"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>Why I Code</h4>
@@ -293,7 +293,6 @@
                                     </div>
                                 </a>
                             </div>
-
 														</div>
 
                         </div> <!-- /.aboutContainer -->
@@ -350,7 +349,7 @@
                                         <h6>React</h6>
                                     </div>
                                     <div class="progress">
-                                      <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
                                       </div>
                                     </div>
                                 </div>
@@ -374,7 +373,19 @@
 																				<h6>Node</h6>
 																		</div>
 																		<div class="progress">
-																			<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+																			<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+																			</div>
+																		</div>
+																</div>
+														</div>
+
+														<div class="col-sm-6">
+																<div class="skill-bar wow slideInRight" data-wow-delay="0.2s">
+																		<div class="progress-lebel">
+																				<h6>jQuery</h6>
+																		</div>
+																		<div class="progress">
+																			<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
 																			</div>
 																		</div>
 																</div>
@@ -386,7 +397,7 @@
 																					<h6>Mongo</h6>
 																			</div>
 																			<div class="progress">
-																				<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+																				<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
 																				</div>
 																			</div>
 																	</div>
@@ -398,7 +409,7 @@
                                         <h6>Firebase</h6>
                                     </div>
                                     <div class="progress">
-                                      <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
                                       </div>
                                     </div>
                                 </div>
@@ -860,20 +871,20 @@
                         	<div class="col-sm-6">
                                 <div class="contact-form">
                                 	<h4>Send me an email</h4>
-                                    <form role="form">
+                                    <form role="form" action="contact.php" method="post">
                                         <div class="form-group">
-                                            <input type="text" class="form-control input-lg" placeholder="Your Name" required>
+                                            <input type="text" name="sender" class="form-control input-lg" placeholder="Your Name" required>
                                         </div>
                                         <div class="form-group">
-                                            <input type="email" class="form-control input-lg" placeholder="E-mail" required>
+                                            <input type="email" name="senderEmail" class="form-control input-lg" placeholder="E-mail" required>
                                         </div>
                                         <div class="form-group">
                                             <input type="text" class="form-control input-lg" placeholder="Subject" required>
                                         </div>
                                         <div class="form-group">
-                                            <textarea class="form-control input-lg" rows="5" placeholder="Message" required></textarea>
+                                            <textarea class="form-control input-lg" name="message" rows="5" placeholder="Message" required></textarea>
                                         </div>
-                                        <button type="submit" class="btn wow bounceInRight" data-wow-delay="0.8s">Send</button>
+                                        <button type="submit" name="submit" class="btn wow bounceInRight" data-wow-delay="0.8s">Send</button>
                                     </form>
                                 </div>
                             </div>
